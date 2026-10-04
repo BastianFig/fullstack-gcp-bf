@@ -1,0 +1,22 @@
+# Credenciales — nunca subir
+.env
+.env.local
+.env.*.local
+
+# Dependencias
+node_modules/
+
+# Build del frontend
+dist/
+build/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Sistema
+.DS_Store
+Thumbs.db
+
+# Editor / herramientas locales
+.claude/
